@@ -1,0 +1,107 @@
+body {
+  background-color: #14131A !important;
+  background: url(../img/blood.png) no-repeat, url(../img/bg.png) no-repeat;
+  background-position: top right, center center;
+  background-size: 850px, 110%;
+}
+
+* {
+  color: white;
+  font-family: Roboto;
+}
+
+a {
+  color: gray;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #b3b3b3;
+}
+
+.header {
+  padding-top: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.header__nav {
+  margin-left: 52px;
+  max-width: 321px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero {
+  padding-top: 80px;
+}
+
+.hero-date {
+  font-size: 24px;
+  line-height: 28px;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 40px;
+}
+
+.hero-title {
+  margin-bottom: 40px;
+}
+
+.hero-subtitle {
+  max-width: 423px;
+  font-size: 16px;
+  line-height: 140%;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 70px;
+}
+
+.hero-button-trailer {
+  transition: 0s;
+  display: flex;
+  align-items: center;
+  color: #8D0019;
+  background-color: white;
+  padding: 15px 30px;
+}
+
+.hero-button-trailer:hover {
+  background-color: #8d0019;
+  color: white;
+}
+
+.hero-button-trailer:hover path {
+  fill: white;
+}
+
+.hero-button-trailer-text {
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.hero-button-ticket {
+  display: flex;
+  align-items: center;
+  margin-left: 51px;
+  background: none;
+  transition: 0s;
+}
+
+.hero-button-ticket:hover {
+  color: #8d0019;
+}
+
+.hero-button-ticket:hover path {
+  fill: #8d0019;
+}
+
+.hero-btns {
+  display: flex;
+}
+
+.venom {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+/*# sourceMappingURL=main.css.map */
