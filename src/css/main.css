@@ -1,4 +1,11 @@
-body {
+.about-body {
+  background-color: #14131A !important;
+  background: url(../img/bg.png) no-repeat;
+  background-position: center center;
+  background-size: 110%;
+}
+
+.main-body {
   background-color: #14131A !important;
   background: url(../img/blood.png) no-repeat, url(../img/bg.png) no-repeat;
   background-position: top right, center center;
@@ -17,6 +24,11 @@ a {
 a:hover {
   text-decoration: none;
   color: #b3b3b3;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
 }
 
 .header {
@@ -103,5 +115,98 @@ a:hover {
   position: absolute;
   top: 0;
   right: 0;
+}
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.about__block {
+  color: rgba(255, 255, 255, 0.8);
+  max-width: 423px;
+}
+
+.about__block-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 21px;
+}
+
+.about__block-text {
+  font-size: 16px;
+  line-height: 140%;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 30px;
+}
+
+.about__block-subtitle {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 140%;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 15px;
+}
+
+.about__block-container {
+  display: flex;
+}
+
+.about__block-list {
+  margin-right: 63px;
+}
+
+.about__block-list-item {
+  font-size: 16px;
+  line-height: 140%;
+  margin-bottom: 0px !important;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.about__block-trailer {
+  margin-top: 33px;
+  border-radius: 5px;
+  padding: 80px 155px;
+  background-image: url(../img/trailer-cover.jpg);
+  background-repeat: no-repeat;
+}
+
+.about__block-trailer-btn {
+  display: block;
+  width: 100%;
+  width: 45px;
+  height: 45px;
+  background: white;
+  padding: 12px 15px 15px 15px;
+  border-radius: 50%;
+}
+
+.about__block-trailer-btn:hover {
+  background-color: #8d0019;
+}
+
+.about__block-trailer-btn:hover path {
+  fill: white;
+}
+
+.about__container {
+  display: flex;
+}
+
+.about__container-img {
+  margin-right: 29px;
+}
+
+.creators-title {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.list-item {
+  font-size: 16px;
+  line-height: 140%;
+  color: rgba(255, 255, 255, 0.8);
 }
 /*# sourceMappingURL=main.css.map */
